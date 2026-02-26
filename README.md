@@ -1,50 +1,23 @@
-# Welcome to your Expo app 👋
+# APLICATIVO MOBILE DE UMA CALCULADORA 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## OBJETIVO
+   Criar uma Calculadora com a tecnologia React Native capaz de resolver as operações de Adição, Subtração, Multiplicação, Divisão, Raiz quadrada, Porcentagem 
 
-## Get started
+## REGRA DE NEGOCIO
+   - O Sistema deverá tratar erros como divisão por 0 ele irá retornar uma mensagem de erro.
+   - O sistema deverá resolver 6 operações matematica como:Adição, Subtração, Multiplicação, Divisão, Raiz quadrada, Porcentagem.
+   - O Caso o usuario clicar em 'C' para limpar a tela deverá alterar para 0 e zerar as variaveis que foram armazenadas.
 
-1. Install dependencies
+## REQUISITOS
+   [RF01] - O Software deverá permitir inserir números entre 0 a 9
+   [RF02] - A Calculadora deverá permitir inserir operadores como adição, subtração, multiplicação, divisão, raiz quadrada, porcentagem
+   [RF03] - A Calculadora deverá ter um botão calcular para realizar os calculos.
+   [RF04] - A Calculadora deverá limpar a tela ao pressionar em C 
+   [RNF01] - O design deverá ser elegante 
 
-   ```bash
-   npm install
-   ```
+## PROTOTIPOS
+   - Foi utilizado a ferramenta 'excalidraw.com' para criar o wireframes do design da Calculadora.
+   ![alt text](image.png)
+   ![alt text](imagemTelaPronta.png)
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## CODIGO
