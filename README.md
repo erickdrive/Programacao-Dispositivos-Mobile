@@ -10,14 +10,22 @@
 
 ## REQUISITOS
    [RF01] - O Software deverá permitir inserir números entre 0 a 9
-   [RF02] - A Calculadora deverá permitir inserir operadores como adição, subtração, multiplicação, divisão, raiz quadrada, porcentagem
+
+   [RF02] - A Calculadora deverá permitir inserir operadores como adição, subtração, multiplicação, divisão, raiz quadrada, porcentagem.
+
    [RF03] - A Calculadora deverá ter um botão calcular para realizar os calculos.
-   [RF04] - A Calculadora deverá limpar a tela ao pressionar em C 
-   [RNF01] - O design deverá ser elegante 
+
+   [RF04] - A Calculadora deverá limpar a tela ao pressionar em C. 
+
+   [RNF01] - O design deverá ser elegante. 
 
 ## PROTOTIPOS
    - Foi utilizado a ferramenta 'excalidraw.com' para criar o wireframes do design da Calculadora.
+
+   ### WIREFRAMES 
    ![alt text](image.png)
+   
+   ### TELA IMPLEMENTADA
    ![alt text](imagemTelaPronta.png)
 
 ## CODIGO
