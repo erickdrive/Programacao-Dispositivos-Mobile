@@ -4,9 +4,21 @@
    Criar uma Calculadora com a tecnologia React Native capaz de resolver as operações de Adição, Subtração, Multiplicação, Divisão, Raiz quadrada, Porcentagem 
 
 ## REGRA DE NEGOCIO
-   - O Sistema deverá tratar erros como divisão por 0 ele irá retornar uma mensagem de erro.
-   - O sistema deverá resolver 6 operações matematica como:Adição, Subtração, Multiplicação, Divisão, Raiz quadrada, Porcentagem.
-   - O Caso o usuario clicar em 'C' para limpar a tela deverá alterar para 0 e zerar as variaveis que foram armazenadas.
+   O Sistema deverá tratar erros matemáticos, como divisão por zero, exibindo uma mensagem de erro apropriada ao usuário.
+   
+   O sistema deverá resolver as seguintes operações:
+    
+      - Adição 
+      - Subtração 
+      - Multiplicação 
+      - Divisão 
+      - Raiz quadrada 
+      - Porcentagem
+   
+   Ao clicar no botão **'C' para (limpar)**, a calculadora deverá:
+  
+      - Exibir `0` na tela 
+      - Limpar todas as variaveis armazenadas na memoria do sistema.
 
 ## REQUISITOS
    [RF01] - O Software deverá permitir inserir números entre 0 a 9
